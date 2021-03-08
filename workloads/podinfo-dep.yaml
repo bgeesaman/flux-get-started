@@ -10,6 +10,8 @@ metadata:
     fluxcd.io/tag.init: regex:^3.10.*
     fluxcd.io/tag.podinfod: glob:3.2.*
     fluxcd.io/automated: 'true'
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_user: Brad Geesaman <bradgeesaman+github@gmail.com>
 spec:
   strategy:
     rollingUpdate:
